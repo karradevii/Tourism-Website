@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tourisim</title>
+
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script src = "fontawesome/fontawesome-web/css/fontawesome.css"></script>
+
+
+    <style>
+       body{
+			 background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSslf65TklPDSlhFKG8objRhOEN7YsOPXbs1v_7YVT990w3cv51-5VLnJHdHYQsMl8MX3Q&usqp=CAU");
+			 height: 100vh;
+			 width: 100vw;
+			 background-size: cover;
+		    }
+            /* .carousel { width:640px; height:360px; align-content: center;} */
+            .card{
+                width: 500;
+                height: 300px;
+                margin-top: 20px;
+                margin-left: 190px;
+                border-radius: 1rem;
+                /* padding-left: 10px; */
+                background-color: #ffffff;
+            }
+            .card2{
+                width: 300;
+                height: 300px;
+                margin-top: 20px;
+                margin-left: 20px;
+                border-radius: 1rem;
+                /* padding-left: 10px; */
+                background-color: #ffffff;
+            }
+            .card:hover {
+              color: #fff;
+              transform: scale(1.125);
+              box-shadow: rgba(0, 0, 0, 0.50) 0px 5px 10px
+          }
+          .card2:hover {
+            color: #fff;
+            transform: scale(1.125);
+            box-shadow: rgba(0, 0, 0, 0.54) 0px 5px 10px
+        }
+
+           
+    </style>
+
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+        <!-- <div class="container-fluid">
+          <a class="navbar-brand" href="Tourisim.html">Home</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="Tourisim.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="beach-place-page.html">Beach Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Snow-places.html">Snow places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Historical-place.html">Historical Places</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="trekking-places-page.html">Trekking Places</a>
+              </li>
+            </li>
+            <li class="nav-item" style="margin-left:30rem">
+              <a class="nav-link" href="Registration-page.html">Sign Up</a>
+            </li>
+            <li class="nav-item" style="margin-left:1rem">
+              <a class="nav-link" href="Login-page.html">Login</a>
+            </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="faviourate-places-bg-container">
+        <h1 class="faviourate-places-heading" style="text-align: center;">Faviourate Places</h1>
+        <div class="faviourate-places-card-container">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner mt-3">
+              <div class="carousel-item active">
+                <img
+                  src="https://static-blog.treebo.com/wp-content/uploads/2018/08/The-Gorgeous-Taj-Mahal.jpg"
+                  class="d-block mx-auto"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://www.india.com/wp-content/uploads/2015/12/Gulmarg-Main-Article-11.jpg"
+                  class="d-block mx-auto h-70"
+                  alt="..."
+                />
+              </div>
+              <div class="carousel-item" style="width: 20;height: 400;">
+                <img
+                  src="https://thumbs.dreamstime.com/b/athirapilly-waterfalls-kerala-niagra-falls-india-130934804.jpg"
+                  class="d-block mx-auto"
+                  alt="..."
+                />
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only bg-dark">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+
+      <div style="display: flex;">
+        <div class="col-3.9">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://lh3.googleusercontent.com/proxy/Wk9SFyxnggZT1oRJsCUj7Jtx0Ibz64R4bLpjoP00juD1Jl_4AKCRDZ1scl7d0mYKYFJHzqy4NQtNdONPfDxnAu0AbYMTJMaA475-KL5_dOSu0lS3-wZckUWUD2HutlXzZ-Rqq3-FXF07C5PKsw" alt="" width="250px" height="230px">
+                <p>Kerala</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/05/Emerald-Lake.jpg" alt="" width="250px" height="230px">
+                <p>Nature Attraction</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/09/Wayanad-1.jpg" alt="" width="250px" height="230px">
+                <p>River</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <div class="col-3.9">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://www.fabhotels.com/blog/wp-content/uploads/2019/04/Khajjiar1.jpg" alt="" width="250px" height="230px">
+                <p>Jammu and Kashmir Hill Station</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://assets.thehansindia.com/h-upload/2020/01/02/250753-gulmarg.web" alt="" width="250px" height="230px">
+                <p>UttaraKhand</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://www.bestescape.in/wp-content/uploads/2020/01/Best-places-for-Snowfall-in-India-Best-Escape-Blog.jpg" alt="" width="250px" height="230px">
+                <p>Ladhak</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex;">
+        <div class="col-3.9">
+            <div class="card">
+              <div class="card-body">
+                <img src="https://www.oyorooms.com/blog/wp-content/uploads/2017/10/agra-min-min-1.jpg" alt="" width="250px" height="230px">
+                <p>Taj Mahal</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://img.traveltriangle.com/blog/wp-content/tr:w-700,h-400/uploads/2019/02/Hawa-Mahal-Jaipur.jpg" alt="" width="250px" height="230px">
+                <p>Hawa Mahal</p>
+              </div>
+            </div>
+        </div>
+        <div class="col-3.5">
+            <div class="card2">
+              <div class="card-body">
+                <img src="https://static2.tripoto.com/media/filter/tst/img/1339317/TripDocument/1547700259_lal_quila.jpg" alt="" width="250px" height="230px">
+                <p>Tripoto</p>
+              </div>
+            </div>
+        </div>
+    </div>
+
+    
+   
+   
+      
+</body>
+</html>
